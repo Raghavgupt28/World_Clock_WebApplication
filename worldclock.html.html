@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WORLD CLOCK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style> 
+    
+    body{
+    background: url(a.jpeg)
+   
+
+    }
+    body{
+      background-repeat: no-repeat  ;
+background-attachment: fixed;
+background-size: 100% 100%;}
+    
+h1{
+  color:rgb(121, 172, 159)
+}
+
+div.title{
+  padding-bottom:20px;
+  padding-top: 5px;
+}
+
+div.container{
+  color: rgb(121, 238, 199);
+}
+
+    </style>
+  </head>
+  <div>
+    <script>
+      confirm("Are You Sure To Open This page");
+       
+
+      
+
+
+
+
+
+
+
+
+    </script>
+     
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WELCOME TO WORLD CLOCK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3>"
+        <main class="my-3"> 
+           <div class="title"> <h1 class="text-center"> WELCOME TO WORLD CLOCK</h1></div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Bharat <i class="bi bi-clock-fill"></i> </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="Bharat"> </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li> </li>
+                  <li> </li>
+                  <li> </li>
+                  <li> </li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary ">More About This Zone </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">United States <i class="bi bi-clock-fill"></i> </h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title" id="usa"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li> </li>
+                  <li> </li>
+                  <li> </li>
+                  <li> </li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">More About This Zone</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm ">
+              <div class="card-header py-3  ">
+                <h4 class="my-0 fw-normal">China <i class="bi bi-clock-fill"></i> </h4> 
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"id="China"></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">More About This Zone</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+         
+      </main>
+      <div class="container"> 
+      <h2> SET AN ALARM HERE </h2>
+
+      <label for="appt"> Set Alarm..... :</label>
+ 
+<input type="time" id="alarm" name="alarm">
+
+
+<input type="button" value="STOP WORLD CLOCK" onclick="stopclock()">
+    </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+      
+    ></script>
+    <script>
+      const updateTime=()=>{
+
+      let d= new Date()
+      usa.innerHTML = d.toLocaleString('en-US', {
+    timeZone: 'America/Los_Angeles',
+  }).split(', ')[1]
+  Bharat.innerHTML = d.toLocaleString('en-US', {
+    timeZone: 'Asia/kolkata',
+  }).split(', ')[1]
+  China.innerHTML = d.toLocaleString('en-US', {
+    timeZone: 'Asia/shanghai',
+  }).split(', ')[1]
+
+  let alarmhour = alarm.value.split(":")[0]
+  let alarmmin = alarm.value.split(":")[1]
+  //console.log(d.getHours(), alarmhour)
+  //console.log(d.getMinutes(), alarmmin)
+  if(d.getHours()==alarmhour && d.getMinutes()==alarmmin)
+  {
+   // console.log("alarm is ringing")
+ // let audiourl=("https://file-examples.com/storage/fe19e15eac6560f8c936c41/2017/11/file_example_MP3_700KB.mp3")
+ let audiourl=('https://pixabay.com/sound-effects/thailand-eas-alarm-2006-266492/')
+var audio = new Audio(audiourl);
+  audio.play();
+  }
+  }
+
+  
+
+      var id1= setInterval(updateTime,1000)
+
+function stopclock(){
+  clearInterval(id1)
+}
+         
+
+    </script>
+ 
+  </body>
+</html>

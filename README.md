@@ -1,7 +1,7 @@
 # World_Clock_WebApplication
 
 A simple **World Clock Web Application** built with HTML, CSS, and JavaScript.  
-This app displays the current time of different cities worldwide and also allows users to **set alarms**.
+This app displays the current time of different countries worldwide and also allows users to **set alarms**.
 
 ---
 
